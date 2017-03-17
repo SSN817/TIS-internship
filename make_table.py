@@ -10,7 +10,7 @@ import textwrap
 font = ImageFont.truetype('osaka.unicode.ttf',20, encoding='unic')
 mini_font = ImageFont.truetype('osaka.unicode.ttf',12, encoding='unic')
 
-slack_token = "xoxb-154047180915-HiUa1EcX72qDPpLoDC0OEkYq"
+slack_token = "XXX"
 sc = SlackClient(slack_token)
 
 user_data = sc.api_call(

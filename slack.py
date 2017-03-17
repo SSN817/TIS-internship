@@ -9,7 +9,7 @@ import os.path
 from pprint import pprint
 from slackclient import SlackClient
 
-slack_token = "xoxb-154047180915-HiUa1EcX72qDPpLoDC0OEkYq"
+slack_token = "XXX"
 sc = SlackClient(slack_token)
 
 user_data = sc.api_call(
